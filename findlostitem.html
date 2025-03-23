@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="findlostitem.css">
+    <title>Find Lost Item</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Find Lost Item</h1>
+    </div>
+
+    <div class="container">
+        <div class="search-box">
+            <h2>Search for a Lost Item</h2>
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <label>Item Name:</label>
+                <input type="text" name="item-name" placeholder="Enter item name">
+
+                <label>Location:</label>
+                <input type="text" name="location" placeholder="Enter location">
+
+                <label>Upload Item Image:</label>
+                <input type="file" name="item-image">
+                
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="lost-items">
+            <h2>Available Lost Items</h2>
+            <div class="item">
+                <img src="wallet-icon.png" alt="Lost Wallet">
+                <p><strong>Item:</strong> Wallet</p>
+                <p><strong>Location:</strong> Central Park</p>
+            </div>
+            <div class="item">
+                <img src="phone-icon.png" alt="Lost Phone">
+                <p><strong>Item:</strong> Phone</p>
+                <p><strong>Location:</strong> Downtown Mall</p>
+            </div>
+            <div class="item">
+                <img src="keys-icon.png" alt="Lost Keys">
+                <p><strong>Item:</strong> Keys</p>
+                <p><strong>Location:</strong> Train Station</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>© 2025 FindEase. All rights reserved.</footer>
+</body>
+</html>
