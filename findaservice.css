@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.search-container {
+    margin: 20px;
+}
+
+.search-container input {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.service-card img {
+    width: 40px;
+    height: 40px;
+}
+
+.service-card h3 {
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-size: 14px;
+    margin: 5px 0;
+}
