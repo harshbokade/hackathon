@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reportstyle.css">
+    <title>Report Lost Item</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Report Lost Item</h1>
+        <div class="form-box">
+            <h2>Enter Lost Item Details</h2>
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <label>Upload Item Image:</label>
+                <input type="file" name="item-image">
+                
+                <label>Item Name:</label>
+                <input type="text" name="item-name" placeholder="Enter item name" required>
+                
+                <label>Last Seen Location:</label>
+                <input type="text" name="last-seen" placeholder="Enter last seen location" required>
+                
+                <label>Your Contact Information:</label>
+                <input type="text" name="contact-info" placeholder="Enter your phone or email" required>
+                
+                <button type="submit">Submit Report</button>
+            </form>
+        </div>
+    </div>
+    <footer>© 2025 FindEase. All rights reserved.</footer>
+</body>
+</html>
